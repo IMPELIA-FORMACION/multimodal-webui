@@ -20,7 +20,6 @@ Este proyecto tiene como objetivo mostrar la facilidad de creación y uso de int
 1. Clona este repositorio en tu máquina local.
 2. Instala las dependencias necesarias:
 pip install -r requirements.txt
-python assistant.py
 
 ### 📖 Uso
 1. Obtén las claves de API necesarias para los modelos de OpenAI. https://platform.openai.com/api-keys
@@ -29,7 +28,7 @@ python assistant.py
 4. Interactúa con la interfaz web utilizando texto, voz o imágenes según tus necesidades.
 
 ### 🎥 Demostración
-(Incluir GIF o enlace a video de demostración aquí)
+https://github.com/IMPELIA-FORMACION/multimodal-webui/blob/main/imgs/caso-uso-personal.png
 
 ### 🤝 Contribuciones
 Las contribuciones son bienvenidas y muy apreciadas. Si tienes sugerencias, correcciones o mejoras, no dudes en hacer un pull request o abrir un issue.
