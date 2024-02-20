@@ -28,7 +28,7 @@ pip install -r requirements.txt
 4. Interactúa con la interfaz web utilizando texto, voz o imágenes según tus necesidades.
 
 ### 🎥 Demostración
-![Demostración del proyecto Multimodal-WebUI]([https://example.com/demo.png](https://github.com/IMPELIA-FORMACION/multimodal-webui/blob/main/imgs/caso-uso-personal.png))
+![Demostración del proyecto Multimodal-WebUI](https://github.com/IMPELIA-FORMACION/multimodal-webui/blob/main/imgs/caso-uso-personal.png)
 
 ### 🤝 Contribuciones
 Las contribuciones son bienvenidas y muy apreciadas. Si tienes sugerencias, correcciones o mejoras, no dudes en hacer un pull request o abrir un issue.
