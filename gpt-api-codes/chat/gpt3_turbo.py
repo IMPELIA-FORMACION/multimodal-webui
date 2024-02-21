@@ -23,7 +23,7 @@ def chat_with_gpt35(api_key, system_prompt, user_prompt):
     print(response.choices[0].message.content)
 
 if __name__ == '__main__':
-    api_key = "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"
+    api_key = "your_api_key_here"
     system_prompt = "De ahora en adelante actua como un experto comercial en la captacion de potenciales clientes"
     user_prompt = "¿Que puedes decirme de la empresa Impelia Formacion Profesional?"
     chat_with_gpt35(api_key, system_prompt, user_prompt)
