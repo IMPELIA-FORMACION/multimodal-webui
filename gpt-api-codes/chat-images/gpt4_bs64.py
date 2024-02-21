@@ -32,7 +32,7 @@ def chat_with_gpt4V(api_key, prompt, base64_image):
     print(response.choices[0].message.content)
 
 if __name__ == '__main__':
-    api_key = "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"
+    api_key = "your_api_key_here"
     prompt = "¿Que ves en esta imagen?"
     image_path = "playa.jpg"
     base64_image = encode_image(image_path)
