@@ -16,6 +16,6 @@ def chat_with_gpt4(api_key, audio_file_path):
     print(transcript)
 
 if __name__ == '__main__':
-    api_key = "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"
+    api_key = "your_api_key_here"
     audio_file_path = ""
     chat_with_gpt4(api_key, audio_file_path)
