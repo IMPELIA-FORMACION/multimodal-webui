@@ -26,7 +26,7 @@ def chat_with_gpt4V(api_key, prompt, img_url):
     print(response.choices[0].message.content)
 
 if __name__ == '__main__':
-    api_key = "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"
+    api_key = "your_api_key_here"
     prompt = "¿Que ves en esta imagen?"
     img_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Gfp-wisconsin-madison-the-nature-boardwalk.jpg/2560px-Gfp-wisconsin-madison-the-nature-boardwalk.jpg"
     chat_with_gpt4V(api_key, prompt, img_url)
