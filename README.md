@@ -7,9 +7,14 @@ Este proyecto tiene como objetivo mostrar la facilidad de creación y uso de int
 
 ### 🌟 Características
 - **Interfaz Multimodal**: Permite la interacción con ChatGPT a través de texto, voz e imágenes.
+- **Creacion de datasets**: Transoforma de forma sencilla tus documentos al formato y contenido de archivo que espera OpenAI para rentrenar sus modelos de CHAT
 - **Facil Accesibilidad**: Accede de forma sencilla la interfaz estes donde estes haciendo uso de la URL generada por Gradio al ejecutarla.
 - **Facilidad de Uso**: Demuestra cómo crear y utilizar interfaces web con Gradio.
-- **Aplicación Versátil**: Apto para una amplia gama de aplicaciones, desde educativas hasta comerciales.
+- **Aplicación Versátil**: Apto para una amplia gama de aplicaciones, tanto educativas, personales como profesionales.
+
+### 🌟 Actualizaciones
+- **Ultima version**: Creacion automatizada de tus documentos al dataset esperado por OpenAI para el rentreno de sus modelos de texto. https://platform.openai.com/docs/guides/fine-tuning
+- **Proximas actualizaciones**: Fine-Tunning automatico desde la interfaz de modelos tipo CHAT de OpenAI / Transcripciones y traducciones de audio automaticas en local con Python-Whisper
 
 ### 🛠 Requisitos
 - Python 3.x
@@ -23,7 +28,7 @@ pip install -r requirements.txt
 
 ### 📖 Uso
 1. Obtén las claves de API necesarias para los modelos de OpenAI. https://platform.openai.com/api-keys
-2. Añade tu clave API en la linea 17, substituye "your_open_api_key_here" por tu api-key.
+2. Añade tu clave API en la linea 288, substituye "your_open_api_key_here" por tu api-key.
 3. Ejecuta el script principal para lanzar la interfaz web: python assistant.py
 4. Interactúa con la interfaz web utilizando texto, voz o imágenes según tus necesidades.
 
