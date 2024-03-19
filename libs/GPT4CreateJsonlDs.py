@@ -17,7 +17,7 @@ class CreateJsonLGPT4():
         if self.use_openai_model == "NO":
             self.openai_api_client = OpenAI(base_url="http://localhost:1234/v1", api_key="not-needed")
         else:
-            self.openai_api_client = OpenAI(api_key=open_api_key) #'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'
+            self.openai_api_client = OpenAI(api_key=open_api_key)
 
     def modify_text_with_gpt4(self, instruction, text):
         gpt_work = True
